@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.richisland.proto;
+
+message pb_config_multiprotocol
+{
+    int32  multiprotocol_config_id    = 1;     // 多协议配置ID
+    int32  protocol_type              = 2;     // 协议类型
+    int32  collect_cycle              = 3;     // 采集周期
+    int32  start_register             = 4;     // 起始寄存器地址
+    int32  address_offset             = 5;     // 地址偏移量
+    string tag_name                   = 6;     // 标签点名称
+}
+

@@ -1,0 +1,44 @@
+syntax = "proto3";
+
+import "pb_com_config.proto";
+import "pb_config_tag.proto";
+
+package com.richisland.proto;  
+
+message pb_config_modbus 
+{
+	int32                      modbus_id                   = 1;    // Modbus采集器ID
+	pb_modbus_type   		   collect_type                = 2;    // 采集方式
+	int32 					   comm_overtime               = 3;	   // 通信超時
+	pb_com_config			   comm_config				   = 4;	   // 串口配置
+	string         			   modbus_tcp_ip               = 5;	   // modbus tcp ip地址
+	int32                      modbus_tcp_port             = 6;    // modbus tcp端口号（TCP方式）
+	int32					   max_registor_number		   = 7;	   // 最大寄存器个数
+	repeated   pb_modbus_group modbus_groups               = 8;    // 组信息
+	repeated   pb_config_tag   tags 					   = 9;
+}
+
+message pb_modbus_group 
+{ 
+    int32           group_id          	= 1;   // 组ID
+    string          group_name        	= 2;   // 组名称
+    int32           collect_cycle     	= 3;   // 组采集周期
+    repeated pb_modbus_meter   meters   = 4;   // 标签点信息
+}
+
+message pb_modbus_meter
+{
+	int32  		   tag_id             = 1;   // 标签点ID
+	int32          function_code      = 2;   // 功能码
+	int32          modbus_addr        = 3;   // Modbus地址
+	int32          start_register     = 4;   // 起始寄存器
+	int32          register_number    = 5;   // 寄存器个数
+}
+
+enum pb_modbus_type
+{
+	MODBUS_RTU                        = 0;
+	MODBUS_ASCII                      = 1;
+	TCP_RTU                           = 2;
+	TCP_ASCII                         = 3;
+}

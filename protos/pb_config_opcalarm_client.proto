@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+package com.richisland.proto;    
+  
+message pb_config_opcalarm_client 
+{  
+    int32             opcalarm_client_id     = 1;        // opcalarm config的ID
+    string            server_address         = 2;        // 采集的AE Server地址
+    string            server_prog_id         = 3;        // 采集的AE Server ProgID
+    string            server_clsid           = 4;        // 采集的AE Server的clsid
+    string            server_domain          = 5;        // 采集的AE Server的域名
+    string            server_user            = 6;        // 采集的AE Server的用户名
+    string            server_password        = 7;        // 采集的AE Server的密码
+
+    repeated  pb_subscription  subscription  = 8;        // 订阅的条件
+}
+
+message pb_subscription
+{
+    int32             subscription_id        = 1;        // 订阅的ID
+    string            subscription_name      = 2;        // 订阅的名称
+    bool              enable                 = 3;        // 是否启用，默认为true
+    int32             update_rate            = 4;        // 更新速率(单位毫秒)
+    int32             max_size               = 5;        // 缓存大小
+    string            event_type             = 6;        // 过滤类型,0:NONE;1:SIMPLE;2:TRACKING;3:CONDITION。可选多个，逗号隔开
+    int32             high_serverrity        = 7;        // 高报，严重级别 1-1000 默认级别1000
+    int32             low_serverrity         = 8;        // 低报，严重级别 1-1000 默认级别1
+}
+

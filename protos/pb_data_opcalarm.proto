@@ -1,0 +1,43 @@
+﻿syntax = "proto3";
+
+package com.richisland.proto;    
+  
+message pb_data_opcalarm 
+{  
+    int32          opcalarm_data_id    = 1;     // 报警标识
+    bool           is_publish          = 2;     // 是否发布 
+    event_type     event_type          = 3;     // 事件类型
+    int32          severity            = 4;     // 严重级别（(0-1000) HIHI= 900,HI=700,LOLO =300,LO=100,DEVIATION=500,INACTIVE=0）
+
+    string         server_address      = 5;     // 采集的AE Server地址
+    string         server_prog_id      = 6;     // 采集的AE Server ProgID
+    string         area                = 7;     // 区域。默认值customArea 
+    string         source_name         = 8;     // 报警源
+
+    int32          event_category_id   = 9;     // 目录ID
+    string         event_category_name = 10;    // 目录名称
+    string         condition_name      = 11;    // 条件名
+
+    string         sub_condition_name  = 12;    // 子条件名
+    string         alarm_message       = 13;    // 消息
+    string         condition_quality   = 14;    // 条件品质
+    string          actor_id            = 15;    // 执行者ID
+    bool           ack_Required        = 16;    // 是否回执
+    int32          change_mask         = 17;    // 状态改变标记
+
+    int32          new_state           = 18;    // 新状态
+
+    int64          active_time         = 19;    // 激活时间戳
+    int64          time                = 20;    // 接收到的时间戳
+
+    string         bak_attribute       = 21;    // 备用属性
+
+} 
+
+enum event_type
+{
+    NONE                               = 0;
+    OPC_SIMPLE_EVENT                   = 1;                   
+    OPC_TRACKING_EVENT                 = 2;                    
+    OPC_CONDITION_EVENT                = 3;                     
+}

@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package com.richisland.proto;  
+
+message pb_config_database
+{
+    int32         database_config_id              = 1;       // 数据库配置ID
+    string        database_config_name            = 2;       // 数据库配置名称
+
+    repeated      pb_database  database_config    = 3;       // 关系数据库服务器IP地址
+}
+
+message pb_database
+{
+    string        server_name            = 1;       // 关系数据库服务器IP地址
+    string        user_name              = 2;       // 数据库访问用户
+
+    string        user_password          = 3;       // 数据库访问密码
+
+    string        database_name          = 4;       // 数据库名称
+
+}

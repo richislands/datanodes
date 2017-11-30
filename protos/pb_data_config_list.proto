@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "pb_data_mongodb.proto";
+
+package com.richisland.proto;
+
+message pb_data_config_list
+{
+    int32     list_id                  = 1;    // list的ID
+    repeated  m_config  pb_data_config = 2;    // 配置数据集合
+}

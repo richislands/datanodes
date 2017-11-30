@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "pb_data_sensor.proto";
+
+package com.richisland.proto;
+
+message pb_config_rtds
+{
+    int32      rtds_id                     = 1;   // 实时数据服务配置信息ID
+    int32      update_cycle                = 2;   // 数据更新周期：单位为秒
+    repeated   pb_data_sensor  tag_infors  = 3;   // 标签点信息
+}

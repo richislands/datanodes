@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.richisland.proto;  
+
+message m_config
+{
+    string config_key   = 1;
+    bytes  config_value = 2;
+}
+
+

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "pb_data_opcalarm.proto";
+
+package com.richisland.proto;
+
+message pb_data_opcalarm_list
+{
+    int32     list_id                             = 1;    // list的ID
+    repeated  pb_data_opcalarm  pb_data_opcalarms = 2;    // OPC alarm数据集合
+}

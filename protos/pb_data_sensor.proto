@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+import "pb_config_tag.proto";
+
+package com.richisland.proto;
+
+message pb_data_sensor
+{
+	string name           = 1;	// 名称
+	pb_data_type type     = 2;	// 数据类型
+	int32 size            = 3;	// 数值字节长度
+	bytes value           = 4;	// 数值(字节)
+	int64 time            = 5;	// 时间戳
+	int32 quality         = 6;	// 质量
+	pb_data_status status = 7;	// 状态
+	pb_data_unit unit     = 8;	// 数值单位
+}
+
+enum pb_data_status
+{
+	GOOD                  = 0;  // 好的
+	BAD                   = 1;	// 坏的
+	INVALID               = 2;  // 无效的
+	NONEXIST              = 3;  // 不存在的
+}

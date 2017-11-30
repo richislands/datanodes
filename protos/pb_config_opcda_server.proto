@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "pb_config_tag.proto";
+
+package com.richisland.proto;    
+  
+message pb_config_opcda_server 
+{  
+    int32                       opcda_server_id   = 1;     // opcda server config的ID
+    int32                          release_cycle  = 2;     // 定时发布数据周期，单位：毫秒
+    int32                          time_mode      = 3;     // 时间戳来源（1:dcs   2:当前系统）
+    repeated pb_config_tag config_tag_release     = 4;     // 发布点信息
+}
+

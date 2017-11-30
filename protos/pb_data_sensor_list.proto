@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "pb_data_sensor.proto";
+
+package com.richisland.proto;
+
+message pb_data_sensor_list
+{
+    int32     list_id                         = 1;    // list的ID
+    repeated  pb_data_sensor  pb_data_sensors = 2;    // 传感器数据集合
+}

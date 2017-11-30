@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package com.richisland.proto;  
+
+message pb_com_config
+{
+    string          portnum            = 1;     // 端口名称
+    int32           baud               = 2;     // 波特率
+    pb_parity_mode  parity             = 3;     // 校验位
+    int32           databit            = 4;     // 数据位     
+    float           stopbit            = 5;     // 停止位
+    int32           hard_stream        = 6;     // 硬件字节流
+}
+
+enum pb_parity_mode
+{
+    NO      = 0;                     // 无校验
+    ODD     = 1;                     // 奇校验
+    EVEN    = 2;                     // 偶校验
+    MARK    = 3;                     // 校验位始终为1
+    SPACE   = 4;                     // 校验位始终为0
+}

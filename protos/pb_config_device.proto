@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+import "pb_com_config.proto";
+
+package com.richisland.proto;  
+
+message pb_config_device
+{
+	string         device_id            = 1;     //设备ID
+    string         device_name          = 2;     //设备名称
+    string         device_type          = 3;     //设备类型
+    pb_net_config  send_config          = 4;    //发送网口信息
+    pb_net_config  coll_config          = 5;    //采集网口信息
+    pb_com_config  com_config           = 6;    //串口信息
+    pb_ntp_config  main_ntp_config      = 7;    // 主NTP服务信息
+    pb_ntp_config  reserve_ntp_config   = 8;    // 备用NTP服务信息
+}
+
+message pb_net_config
+{
+    string net_name                    = 1;     // 网卡名称
+    string ipv4                        = 2;     // 网卡IPv4地址
+    string ipv6                        = 3;     // 网卡IPv6地址
+    string netmask                     = 4;     // 网卡子网掩码
+    string gateway                     = 5;     // 网卡网关
+}
+
+message pb_ntp_config
+{
+    string serverip                   = 1;     // NTP服务IP
+    int32 serverport                  = 2;     // NTP服务端口号
+}
+
+
+

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.richisland.proto;
+
+message pb_config_mongodb
+{
+    string           mongodb_id               = 1;    // mongodb配置id
+    string           ip                       = 2;    // mongodb的IP地址
+    int32            port                     = 3;    // mongodb的端口号
+    string           user_name                = 4;    // mongodb用户名
+    string           user_password            = 5;    // mongodb密码
+    int32            cycle                    = 6;    // 定时获取配置的周期
+    string           database_name            = 7;    // 数据库名称
+    string           collection_name          = 8;    // 表名
+    string           field_name               = 9;    // 字段
+    repeated string  search_key_list          = 10;   // 查询列表
+}

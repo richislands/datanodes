@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.richisland.proto;    
+  
+message pb_config_opcalarm_server 
+{  
+    int32                       opcalarm_server_id   = 1;     // opcalarm server config的ID
+    int32                       update_rate          = 2;     // 更新速率(单位：毫秒)
+}

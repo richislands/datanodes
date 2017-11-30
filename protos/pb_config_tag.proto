@@ -1,0 +1,124 @@
+syntax  = "proto3";
+
+package com.richisland.proto;
+
+message pb_config_tag
+{
+    int32            tag_id                             = 1;     // 标签点ID
+    string           tag_name                           = 2;     // 采集标签点名称
+
+    string           save_tag_name                      = 3;     // 存储标签点名称
+
+    string           publish_tag_name                   = 4;     // 发布标签点名称
+
+    pb_data_type     data_type                          = 5;     // 数据类型
+    int32            data_format                        = 6;     // 数据格式
+    pb_encoding_type string_data_encoding               = 7;     // 字符编码
+    float            correct_coefficient                = 8;     // 修正系数
+    float            adiust_parameters                  = 9;     // 调整参数
+    pb_data_unit     data_unit                          = 10;    // 单位
+}
+
+enum pb_encoding_type
+{
+    NONE         = 0;
+    UTF8         = 1;
+    GB2312       = 2;
+    GBK          = 3;
+    UNICODE      = 4;
+    ASCII        = 5;
+    UTF16        = 6;
+}
+
+enum pb_data_type
+{
+    ENUM_INT32        = 0;
+    ENUM_INT64        = 1;
+    ENUM_UINT32       = 2;
+    ENUM_UINT64       = 3;
+    ENUM_FLOAT        = 4;
+    ENUM_DOUBLE       = 5;
+    ENUM_BOOL         = 6;
+    ENUM_STRING       = 7;
+    ENUM_BYTES        = 8;
+}
+
+enum pb_data_unit
+{
+    NONE_UNIT    = 0;     //无
+
+    LEN_KM       = 1;     //千米
+    LEN_M        = 2;     //米
+
+    LEN_DM       = 3;     //分米
+    LEN_CM       = 4;     //厘米
+    LEN_MM       = 5;     //毫米
+    VLM_M3       = 6;     //立方米
+
+    VLM_DM3      = 7;     //立方分米
+    VLM_CM3      = 8;     //立方厘米
+    VLM_MM3      = 9;     //立方毫米
+    WET_TON      = 10;     //吨
+
+    WET_KG       = 11;    //千克
+    WET_G        = 12;    //克
+
+    PRE_MPA      = 13;    //兆帕
+    PRE_KPA      = 14;    //千帕
+    PRE_HPA      = 15;    //百帕
+    PRE_PA       = 16;    //帕
+
+    PRE_MBAR     = 17;    //毫帕
+    PRE_ATM      = 18;    //标准大气压
+
+    PRE_TORR     = 19;    //托
+
+    PRE_BAR      = 20;    //巴
+
+    PRE_PSI      = 21;    //磅
+
+    PRE_MMHG     = 22;    //毫米汞柱
+    PRE_MMH20    = 23;    //毫米水柱
+    PRE_INHG     = 24;    //英寸汞柱
+    PRE_INH20    = 25;    //英寸水柱
+    PRE_LB_FT2   = 26;    //磅每平方英尺
+    PRE_KG_CM2   = 27;    //千克每平方厘米
+
+    TMP_C        = 28;    //摄氏度
+
+    TMP_F        = 29;    //华氏度
+
+    TMP_K        = 30;    //开氏度
+    TMP_R        = 31;    //蘭氏度
+
+    WRT_KG_H     = 32;    //千克每時
+    WRT_KG_S     = 33;    //千克每秒
+    WRT_T_H      = 34;    //吨每時
+
+    WRT_T_D      = 35;    //吨每日
+
+    WRT_T_A      = 36;    //吨每年
+
+    WRT_LB_S     = 37;    //磅每秒
+
+    WRT_LB_H     = 38;    //磅每時
+
+    WRT_LB_D     = 39;    //磅每日
+
+    VRT_L_MIN    = 40;    //升每分
+
+    VRT_L_S      = 41;    //升每秒
+
+    VRT_BBL_D    = 42;    //桶每日
+
+    VRT_M3_H     = 43;    //立方米每是
+
+    VRT_M3_MIN   = 44;    //立方米每分
+
+    VRT_M3_S     = 45;    //立方米每秒
+
+    VRT_FT3_MIN  = 46;    //立方英尺每分
+    VRT_FT3_S    = 47;    //立方英尺每秒
+    VRT_UGAL_MIN = 48;    //加仑(美)每分 
+    VRT_EGAL_MIN = 49;    //加仑(英)每分   
+}

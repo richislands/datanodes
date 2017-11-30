@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+import "pb_config_tag.proto";
+
+package com.richisland.proto;    
+  
+message pb_config_opcda_client 
+{  
+    int32           opcda_client_id       = 1;       // opcda config的ID
+    pb_opc_server   main_opc_server       = 2;       // opc server的信息
+    pb_opc_server   back_opc_server       = 3;       // 备用opc server的信息
+    repeated pb_opc_group opc_groups      = 4;       // 组信息
+
+}
+
+message pb_opc_server 
+{ 
+    string          opc_server_ip         = 1;        // OPC Server的IP
+    string          opc_server_prgid      = 2;        // OPC Server的prgid
+    string          opc_server_clsid      = 3;        // OPC Server的clsid
+    string          opc_server_domain     = 4;        // OPC Server的域名
+    string          opc_server_user       = 5;        // OPC Server的用户名
+    string          opc_server_password   = 6;        // OPC Server的密码
+}
+
+message pb_opc_group 
+{ 
+    int32           group_id              = 1;        // 组ID
+    string          group_name            = 2;        // 组名称
+    int32           collect_cycle         = 3;        // 组采集周期
+    repeated pb_config_tag   opc_tags     = 4;        // 点信息
+
+} 
