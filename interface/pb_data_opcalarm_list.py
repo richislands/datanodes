@@ -13,7 +13,7 @@ from google.protobuf import descriptor_pb2
 _sym_db = _symbol_database.Default()
 
 
-import pb_data_opcalarm as pb__data__opcalarm__pb2
+import pb_data_opcalarm as pb__data__opcalarm
 
 
 DESCRIPTOR = _descriptor.FileDescriptor(
@@ -22,7 +22,8 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   syntax='proto3',
   serialized_pb=_b('\n\x1bpb_data_opcalarm_list.proto\x12\x14\x63om.richisland.proto\x1a\x16pb_data_opcalarm.proto\"k\n\x15pb_data_opcalarm_list\x12\x0f\n\x07list_id\x18\x01 \x01(\x05\x12\x41\n\x11pb_data_opcalarms\x18\x02 \x03(\x0b\x32&.com.richisland.proto.pb_data_opcalarmb\x06proto3')
   ,
-  dependencies=[pb__data__opcalarm__pb2.DESCRIPTOR,])
+  dependencies=[pb__data__opcalarm.DESCRIPTOR,])
+_sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
 
 
@@ -64,9 +65,8 @@ _PB_DATA_OPCALARM_LIST = _descriptor.Descriptor(
   serialized_end=184,
 )
 
-_PB_DATA_OPCALARM_LIST.fields_by_name['pb_data_opcalarms'].message_type = pb__data__opcalarm__pb2._PB_DATA_OPCALARM
+_PB_DATA_OPCALARM_LIST.fields_by_name['pb_data_opcalarms'].message_type = pb__data__opcalarm._PB_DATA_OPCALARM
 DESCRIPTOR.message_types_by_name['pb_data_opcalarm_list'] = _PB_DATA_OPCALARM_LIST
-_sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
 pb_data_opcalarm_list = _reflection.GeneratedProtocolMessageType('pb_data_opcalarm_list', (_message.Message,), dict(
   DESCRIPTOR = _PB_DATA_OPCALARM_LIST,
