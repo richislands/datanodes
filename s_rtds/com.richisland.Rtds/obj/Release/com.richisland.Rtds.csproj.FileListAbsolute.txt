@@ -1,5 +1,0 @@
-D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.Rtds\bin\Release\com.richisland.Rtds.dll
-D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.Rtds\bin\Release\com.richisland.Rtds.pdb
-D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.Rtds\obj\Release\com.richisland.Rtds.csprojResolveAssemblyReference.cache
-D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.Rtds\obj\Release\com.richisland.Rtds.dll
-D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.Rtds\obj\Release\com.richisland.Rtds.pdb

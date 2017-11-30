@@ -1,1 +1,0 @@
-D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\s_rtds\bin\Release\s_rtds.exe.config
