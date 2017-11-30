@@ -1,0 +1,5 @@
+D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.proto\bin\Release\com.richisland.proto.dll
+D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.proto\bin\Release\com.richisland.proto.pdb
+D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.proto\bin\Release\Google.Protobuf.dll
+D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.proto\obj\Release\com.richisland.proto.dll
+D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.proto\obj\Release\com.richisland.proto.pdb

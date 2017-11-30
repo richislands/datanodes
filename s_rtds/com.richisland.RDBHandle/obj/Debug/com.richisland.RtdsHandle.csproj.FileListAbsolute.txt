@@ -1,0 +1,8 @@
+D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.RDBHandle\bin\Debug\com.richisland.RtdsHandle.dll
+D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.RDBHandle\bin\Debug\com.richisland.RtdsHandle.pdb
+D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.RDBHandle\obj\Debug\com.richisland.RtdsHandle.dll
+D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.RDBHandle\obj\Debug\com.richisland.RtdsHandle.pdb
+D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.RDBHandle\bin\Debug\com.richisland.proto.dll
+D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.RDBHandle\bin\Debug\Google.Protobuf.dll
+D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.RDBHandle\bin\Debug\com.richisland.proto.pdb
+D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.RDBHandle\obj\Debug\com.richisland.RtdsHandle.csprojResolveAssemblyReference.cache

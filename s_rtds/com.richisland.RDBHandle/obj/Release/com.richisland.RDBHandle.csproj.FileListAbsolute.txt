@@ -1,0 +1,8 @@
+D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.RDBHandle\bin\Release\com.richisland.RDBHandle.dll
+D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.RDBHandle\bin\Release\com.richisland.RDBHandle.pdb
+D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.RDBHandle\bin\Release\com.richisland.proto.dll
+D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.RDBHandle\bin\Release\Google.Protobuf.dll
+D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.RDBHandle\bin\Release\com.richisland.proto.pdb
+D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.RDBHandle\obj\Release\com.richisland.RDBHandle.csprojResolveAssemblyReference.cache
+D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.RDBHandle\obj\Release\com.richisland.RDBHandle.dll
+D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.RDBHandle\obj\Release\com.richisland.RDBHandle.pdb

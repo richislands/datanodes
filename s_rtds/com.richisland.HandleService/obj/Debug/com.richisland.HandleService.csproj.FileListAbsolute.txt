@@ -1,0 +1,30 @@
+D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.HandleService\bin\Debug\com.richisland.HandleService.dll
+D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.HandleService\bin\Debug\com.richisland.HandleService.pdb
+D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.HandleService\bin\Debug\AsyncIO.dll
+D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.HandleService\bin\Debug\com.richisland.proto.dll
+D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.HandleService\bin\Debug\com.richisland.RDBHandle.dll
+D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.HandleService\bin\Debug\Google.Protobuf.dll
+D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.HandleService\bin\Debug\log4net.dll
+D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.HandleService\bin\Debug\NetMQ.dll
+D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.HandleService\bin\Debug\com.richisland.Rtds.dll
+D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.HandleService\bin\Debug\com.richisland.proto.pdb
+D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.HandleService\bin\Debug\com.richisland.RDBHandle.pdb
+D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.HandleService\bin\Debug\com.richisland.Rtds.pdb
+D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.HandleService\obj\Debug\com.richisland.HandleService.csprojResolveAssemblyReference.cache
+D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.HandleService\obj\Debug\com.richisland.HandleService.dll
+D:\visual studio 2012\实时数据服务\实时数据服务\s_rtds\com.richisland.HandleService\obj\Debug\com.richisland.HandleService.pdb
+F:\svn目录\sjfw\sw_rtds\c#\trunk\4_sourcecode\com.richisland.HandleService\bin\Debug\com.richisland.HandleService.dll
+F:\svn目录\sjfw\sw_rtds\c#\trunk\4_sourcecode\com.richisland.HandleService\bin\Debug\com.richisland.HandleService.pdb
+F:\svn目录\sjfw\sw_rtds\c#\trunk\4_sourcecode\com.richisland.HandleService\bin\Debug\AsyncIO.dll
+F:\svn目录\sjfw\sw_rtds\c#\trunk\4_sourcecode\com.richisland.HandleService\bin\Debug\com.richisland.proto.dll
+F:\svn目录\sjfw\sw_rtds\c#\trunk\4_sourcecode\com.richisland.HandleService\bin\Debug\com.richisland.RDBHandle.dll
+F:\svn目录\sjfw\sw_rtds\c#\trunk\4_sourcecode\com.richisland.HandleService\bin\Debug\Google.Protobuf.dll
+F:\svn目录\sjfw\sw_rtds\c#\trunk\4_sourcecode\com.richisland.HandleService\bin\Debug\log4net.dll
+F:\svn目录\sjfw\sw_rtds\c#\trunk\4_sourcecode\com.richisland.HandleService\bin\Debug\NetMQ.dll
+F:\svn目录\sjfw\sw_rtds\c#\trunk\4_sourcecode\com.richisland.HandleService\bin\Debug\com.richisland.Rtds.dll
+F:\svn目录\sjfw\sw_rtds\c#\trunk\4_sourcecode\com.richisland.HandleService\bin\Debug\com.richisland.proto.pdb
+F:\svn目录\sjfw\sw_rtds\c#\trunk\4_sourcecode\com.richisland.HandleService\bin\Debug\com.richisland.RDBHandle.pdb
+F:\svn目录\sjfw\sw_rtds\c#\trunk\4_sourcecode\com.richisland.HandleService\bin\Debug\com.richisland.Rtds.pdb
+F:\svn目录\sjfw\sw_rtds\c#\trunk\4_sourcecode\com.richisland.HandleService\obj\Debug\com.richisland.HandleService.csprojResolveAssemblyReference.cache
+F:\svn目录\sjfw\sw_rtds\c#\trunk\4_sourcecode\com.richisland.HandleService\obj\Debug\com.richisland.HandleService.dll
+F:\svn目录\sjfw\sw_rtds\c#\trunk\4_sourcecode\com.richisland.HandleService\obj\Debug\com.richisland.HandleService.pdb
